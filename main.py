@@ -4,9 +4,9 @@ import openai
 
 
 client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_KEY"),
-    api_version="2025-01-01-preview",
-    azure_endpoint = os.getenv("AZURE_ENDPOINT"),
+    api_key=os.getenv("AZURE_OPENAI_KEY"), # 从Azure上直接获取的API Key
+    api_version="2025-01-01-preview", # 需要在Azure上找到部署的服务器，然后点击对应模型，查看目标URL中最后的版本号
+    azure_endpoint = os.getenv("AZURE_ENDPOINT"), # 从Azure上直接获取的Endpoint
 )
 
 def init_openai():
