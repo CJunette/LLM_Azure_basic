@@ -3,7 +3,7 @@
 网址：https://azure.microsoft.com/zh-cn/overview/ai-platform/
 2. 点击下方图片中所示“创建资源”
 ![img.png](img/img1.png)
-3. 在弹出的页面中，搜索“openai”，选择“Azure OpenAI”，点击“创建”。
+3. 在弹出的页面中，搜索“openai”，选择“Azure OpenAI”，点击“创建”，选中弹出的“Azure OpenAI”。
 ![img.png](img/img1_1.png)
 4. 资源组”选择自己的姓名，区域随意选择（不同区域的服务可能有不同），设置好实例名称，定价层只能选择一个“Standard S0”。设置完成后下一步。 
 ![img.png](img/img2.png)
